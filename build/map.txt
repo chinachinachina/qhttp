@@ -1,0 +1,10 @@
+beijing 11
+tianjin 12
+liaoning 21
+jilin 22
+shanghai 31
+jiangsu 32
+henan 41
+hubei 42
+sichuan 51
+guizhou 52
