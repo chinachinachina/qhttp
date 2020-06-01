@@ -1,6 +1,6 @@
 /***********************************************************************************
  * File name: epoll_event.h
- * Description: A head file relation to class Epoll_Event_Op and struct single_event
+ * Description: A head file related to class Epoll_Event_Op and struct single_event
  * Author: Zeyuan Qiu
  * Version: 2.0
  * Date: 2020/05/15
