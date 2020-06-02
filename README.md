@@ -219,6 +219,7 @@ The parameter 'Requests/sec' of lighttpd is 65610.13, around six fifth of that f
 5. Test qhttp with 'POST' method using Lua script. Before you do this, comment out the module of file writing (around line 534-545 in server.cc).
 ```
 // printf("------ WRITE INTO THE FILE START ------ \n");
+
 // char seq[FILE_SEQ_LEN];
 // memset(seq, '\0', FILE_SEQ_LEN);
 // for (it = data_map.begin(); it != data_map.end(); it++)
@@ -231,6 +232,7 @@ The parameter 'Requests/sec' of lighttpd is 65610.13, around six fifth of that f
 // ofs.open("map.txt");
 // ofs.write(seq, seq_len);
 // ofs.close();
+
 // printf("------ WRITE INTO THE FILE END ------ \n");
 ```
 The following result looks good. However, it must leave space to improve.
