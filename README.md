@@ -231,8 +231,7 @@ The parameter 'Requests/sec' of lighttpd is 65610.13, around six fifth of that f
 // ofs.open("map.txt");
 // ofs.write(seq, seq_len);
 // ofs.close();
-
-        // printf("------ WRITE INTO THE FILE END ------ \n");
+// printf("------ WRITE INTO THE FILE END ------ \n");
 ```
 The following result looks good. However, it must leave space to improve.
 ```
