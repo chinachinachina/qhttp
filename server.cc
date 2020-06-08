@@ -211,7 +211,6 @@ void Server::process_request_line(single_connection *conn)
         int key_len;
         /* 用户查询键临时变量 */
         char temp_key[256];
-        memset(temp_key, '\0', sizeof(temp_key));
         /* 临时变量str类型 */
         string temp_key_str;
         /* 设置指针保存uri初始位置指针 */
@@ -255,6 +254,7 @@ void Server::process_request_line(single_connection *conn)
                 /* 键长 */
                 key_len = find_and - key_search_begin - 1;
                 /* 拷贝键到temp_key */
+                memset(temp_key, '\0', sizeof(temp_key));
                 strncpy(temp_key, key_search_begin + 1, key_len);
                 temp_key_str = temp_key;
                 /* 向query_list添加键 */
